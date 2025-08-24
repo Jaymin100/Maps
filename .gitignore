@@ -6,6 +6,8 @@
 .env.production.local
 
 
+node_modules/
+
 # Build outputs (these get regenerated)
 dist/
 build/
