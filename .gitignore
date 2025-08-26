@@ -5,9 +5,8 @@
 .env.test.local
 .env.production.local
 
-
+#npm install
 node_modules/
-
 # Build outputs (these get regenerated)
 dist/
 build/
