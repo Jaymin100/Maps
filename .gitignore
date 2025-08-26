@@ -5,8 +5,13 @@
 .env.test.local
 .env.production.local
 
-#npm install
+# Dependencies - ignore ALL node_modules directories
 node_modules/
+**/node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+Frontend/template/node_modules/
+
 # Build outputs (these get regenerated)
 dist/
 build/
@@ -47,3 +52,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Package lock files (optional - some teams prefer to commit these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
