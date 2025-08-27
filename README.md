@@ -199,7 +199,6 @@ The application uses JWT (JSON Web Tokens) for secure authentication:
 
 ### Phase 3: Navigation & Routing 🚧
 - [ ] Building and room database
-- [ ] Route calculation algorithms
 - [ ] Real-time location integration
 - [ ] Navigation interface
 
